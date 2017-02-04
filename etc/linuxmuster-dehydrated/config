@@ -1,0 +1,17 @@
+# E-mail to use during the registration (default: <unset>)
+#CONTACT_EMAIL=
+
+# Output directory for challenge-tokens to be served by webserver or deployed in HOOK (default: /var/www/dehydrated)
+WELLKNOWN="/var/www/linuxmuster-dehydrated"
+
+# Program or function called in certain situations
+#
+# After generating the challenge-response, or after failed challenge (in this case altname is empty)
+# Given arguments: clean_challenge|deploy_challenge altname token-filename token-content
+#
+# After successfully signing certificate
+# Given arguments: deploy_cert domain path/to/privkey.pem path/to/cert.pem path/to/fullchain.pem
+#
+HOOK="${BASEDIR}/hook.sh"
+
+
