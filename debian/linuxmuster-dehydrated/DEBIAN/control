@@ -1,0 +1,10 @@
+Package: linuxmuster-dehydrated
+Version: 0.2
+Architecture: all
+Maintainer: Frank Schiebel <frank@linuxmuster.net>
+Installed-Size: 110
+Depends: curl
+Section: unknown
+Priority: extra
+Homepage: https://github.com/lukas2511/dehydrated
+Description: Dehydrated for easy Letsencrypr Certs in linuxmuster.net

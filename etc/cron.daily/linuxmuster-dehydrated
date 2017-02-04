@@ -1,0 +1,2 @@
+#!/bin/sh
+/usr/sbin/linuxmuster-dehydrated -c >> /var/log/linuxmuster-dehydrated.log 2>&1

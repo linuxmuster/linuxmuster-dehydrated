@@ -7,6 +7,6 @@ Standards-Version: 3.9.2
 Homepage: https://github.com/lukas2511/dehydrated
 
 Package: linuxmuster-dehydrated
-Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}, curl
 Description: Dehydrated for easy Letsencrypr Certs in linuxmuster.net
