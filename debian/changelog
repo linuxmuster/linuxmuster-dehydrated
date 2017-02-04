@@ -1,6 +1,7 @@
-linuxmuster-dehydrated (0.3) unstable; urgency=low
+linuxmuster-dehydrated (0.4) babo; urgency=low
 
   * Fixed rogue "~" in hook.sh
+  * Moved package to babo
 
  -- Frank Schiebel <frank@linuxmuster.net>  Sat, 04 Feb 2017 18:56:00 +0100
 
