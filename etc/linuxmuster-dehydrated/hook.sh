@@ -6,4 +6,3 @@ if [ ${1} == "deploy_cert" ]; then
 else
     echo " + Hook: Nothing to do..."
 fi
-~                      

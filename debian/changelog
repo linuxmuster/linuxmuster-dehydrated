@@ -1,8 +1,13 @@
+linuxmuster-dehydrated (0.3) unstable; urgency=low
+
+  * Fixed rogue "~" in hook.sh
+
+ -- Frank Schiebel <frank@linuxmuster.net>  Sat, 04 Feb 2017 18:56:00 +0100
+
 linuxmuster-dehydrated (0.2) unstable; urgency=low
 
   * Binary is renamed /usr/sbin/linuxmuster-dehydrated
   * Configuration is in /etc/linuxmuster-dehydrated, so are the certificates
   * Postinst reloads apache
-
 
  -- Frank Schiebel <frank@linuxmuster.net>  Sat, 04 Feb 2017 17:17:00 +0100
