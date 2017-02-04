@@ -1,5 +1,0 @@
-# Hier muss der Servername eingetragen werden, 
-# unter dem  der linuxmuster.net Server aus 
-# dem Internet unter Port 80 erreichbar ist.
-
-#servername.domain.de

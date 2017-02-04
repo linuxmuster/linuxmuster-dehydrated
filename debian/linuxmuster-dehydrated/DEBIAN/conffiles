@@ -1,5 +1,0 @@
-/etc/linuxmuster-dehydrated/config
-/etc/linuxmuster-dehydrated/hook.sh
-/etc/linuxmuster-dehydrated/domains.txt
-/etc/apache2/conf.d/linuxmuster-dehydrated
-/etc/cron.daily/linuxmuster-dehydrated
