@@ -17,4 +17,8 @@ BASEDIR="/etc/linuxmuster-dehydrated"
 # Given arguments: deploy_cert domain path/to/privkey.pem path/to/cert.pem path/to/fullchain.pem
 HOOK="${BASEDIR}/hook.sh"
 
+## For testing purposes you should uncomment these lines (and --register separately).
+## Comment these, when ready for production, see https://github.com/lukas2511/dehydrated/blob/master/docs/staging.md
+#CA="https://acme-staging.api.letsencrypt.org/directory"
+#CA_TERMS="https://acme-staging.api.letsencrypt.org/terms"
 
