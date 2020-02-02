@@ -23,8 +23,18 @@ set -e
 case "$1" in
 
  configure)
-    ## Konfigurationsanweisungen hierhin!
+    ## Reloading apache
     /etc/init.d/apache2 reload
+
+    ## Checking for old acme-v1 api endpoint, reregistering if required
+    v1="false"
+    /usr/sbin/linuxmuster-dehydrated -e --config /etc/linuxmuster-dehydrated/config | grep CA | grep acme-v01 > /dev/null 2>&1 && v1=true
+    if [ $v1 == "true" ]; then 
+        echo "Reregistering LetsEncrypt Account..."
+        /usr/sbin/linuxmuster-dehydrated --account  --config /etc/linuxmuster-dehydrated/config 
+        echo "done."
+    fi
+    
  ;;
 
 esac

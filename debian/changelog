@@ -1,3 +1,12 @@
+linuxmuster-dehydrated (0.7) babo; urgency=low
+
+  * Updated dehydrated to v0.6.5 from 02.02.2020
+  * Added check to postinst to update to acme-v2 api endpoint if required
+  * Changed default hook script to adapt to the dehydrated reqirement to have
+    no action without signal
+
+ -- Frank Schiebel <frank@linuxmuster.net>  Sun, 02 Feb 2020 18:46:00 +0100
+
 linuxmuster-dehydrated (0.6) babo; urgency=low
 
   * Fixed rogue "~" in hook.sh

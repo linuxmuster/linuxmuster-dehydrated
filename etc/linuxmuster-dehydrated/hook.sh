@@ -26,7 +26,4 @@ if [ ${1} == "deploy_cert" ]; then
     #echo "   + Copy to cloudserver"
     #rsync -avP $TARGETDIR/server.pem root@cloud:/etc/ssl/private/server.pem
     #ssh root@cloud service apache2 reload
-    
-else
-    echo " + Hook: Nothing to do... $1"
 fi

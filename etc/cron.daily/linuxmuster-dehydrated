@@ -1,2 +1,7 @@
 #!/bin/sh
-/usr/sbin/linuxmuster-dehydrated -c >> /var/log/linuxmuster-dehydrated.log 2>&1
+
+# check for certs to renew
+/usr/sbin/linuxmuster-dehydrated -c --config /etc/linuxmuster-dehydrated/config  >> /var/log/linuxmuster-dehydrated.log 2>&1
+# clenup unused certs
+/usr/sbin/linuxmuster-dehydrated -gc --config /etc/linuxmuster-dehydrated/config  >> /var/log/linuxmuster-dehydrated.log 2>&1
+
